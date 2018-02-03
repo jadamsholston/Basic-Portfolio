@@ -1,22 +1,14 @@
 
 
-head { 
+header { 
     background-color: #ffffff;
-    float: left;
-    margin: 0%;
-    margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
+    height: 60px;
 }
 
 body {
     background-color: grey;
-    margin-top: 150px;
-    margin-left: 500px;
-    margin-bottom: 150px;
-    height: 200px;
-    width: 300px;
     padding: 20px;
+    margin:auto;
 }
 
 footer {
@@ -27,16 +19,14 @@ footer {
 
 .nameheader {
     background-color: teal;
-    position: fixed;
-    padding: 45px;
-    margin: 0;
-    top: 0%;
-    left: 25px;
+    padding: 12px;
+    margin: auto;
+    float:left;
 }
 
 .wrapper {
     background-color: #ffffff;
-    position: fixed;
+    float:right;
     padding:15px;
     margin: 0;
     top: 0;
