@@ -10,6 +10,7 @@ header {
     height: 60px;
     margin-bottom: 20px;
     width: 100%;
+    border-bottom: 2px #cccccc solid
 }
 
 section {
@@ -22,8 +23,10 @@ section {
 .nameheader {
     background-color: teal;
     padding: 12px;
-    margin: auto;
+    margin: 0 auto;
+    margin-left: 75px;
     float:left;
+  
 }
 
 .wrapper {
@@ -31,9 +34,9 @@ section {
     font-style: grey;
     float:right;
     padding:15px;
-    margin: 0;
-    top: 0;
-    right:75px;
+    margin: 0 auto;
+    margin-right: 20px;
+    font-size: 15px;
 }
 
 .main {
@@ -43,6 +46,7 @@ section {
     height: 90%;
     background-color: #ffffff;
     padding: 20px;
+    border-top: 2px #dddddd solid;
 }
 
 .connect {
@@ -54,11 +58,11 @@ section {
     padding: 5px;
     font-size: 25px;
     vertical-align: 50%;
+    border-top: 2px #dddddd solid;
 }
 
 i {
     font-size: 50px;
-    
 }
 
 footer {
@@ -66,6 +70,6 @@ footer {
     text-align: center;
     padding: 25px;
     border-top: 5px teal solid;
-    background-color: #ffffff;
+    background-color: #666666;
 }
 
