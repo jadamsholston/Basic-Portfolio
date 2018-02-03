@@ -1,20 +1,22 @@
 
+body {
+    background-color: grey;
+    margin: 0 auto;
+}
 
 header { 
     background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     height: 60px;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
-body {
-    background-color: grey;
-    padding: 20px;
-    margin:auto;
-}
-
-footer {
-    background-color: red;
-    padding: 25px;
-    border-bottom: 25px
+section {
+    margin: 0 auto;
+    width: 960px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nameheader {
@@ -26,13 +28,44 @@ footer {
 
 .wrapper {
     background-color: #ffffff;
+    font-style: grey;
     float:right;
     padding:15px;
     margin: 0;
     top: 0;
     right:75px;
+}
+
+.main {
+    float: left;
+    text-align: left;
+    width: 55%;
+    height: 90%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.connect {
+    float: right;
+    text-align: center;
+    width: 30%;
+    height: 25%;
+    background-color: #ffffff;
+    padding: 5px;
+    font-size: 25px;
+    vertical-align: 50%;
+}
+
+i {
+    font-size: 50px;
     
 }
 
-
+footer {
+    background-color:slategray;
+    text-align: center;
+    padding: 25px;
+    border-top: 5px teal solid;
+    background-color: #ffffff;
+}
 
